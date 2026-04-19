@@ -1,0 +1,15 @@
+[squigit-ocr]
+name=Squigit OCR Packages
+baseurl=https://squigit-org.github.io/squigit-packages/rpm/ocr
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://squigit-org.github.io/squigit-packages/keys/squigit-packages.asc
+
+[squigit-stt]
+name=Squigit STT Packages
+baseurl=https://squigit-org.github.io/squigit-packages/rpm/stt
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://squigit-org.github.io/squigit-packages/keys/squigit-packages.asc

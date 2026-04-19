@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Squigit Packages</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      body {
+        margin: 0;
+        font-family: "Instrument Sans", "Inter", "Segoe UI", sans-serif;
+        background: linear-gradient(135deg, #f6f8ff 0%, #f2fff8 100%);
+        color: #1f2937;
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 2rem;
+      }
+      code,
+      pre {
+        font-family: "JetBrains Mono", "Fira Code", monospace;
+      }
+      pre {
+        background: #0f172a;
+        color: #e2e8f0;
+        padding: 14px;
+        border-radius: 10px;
+        overflow-x: auto;
+      }
+      .card {
+        background: #ffffff;
+        border: 1px solid #dbe6ff;
+        border-radius: 14px;
+        padding: 18px;
+        margin-top: 18px;
+      }
+      a {
+        color: #0f4fd3;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Squigit Linux Packages</h1>
+      <p>
+        Signed APT and DNF metadata for <code>squigit-ocr</code> and
+        <code>squigit-stt</code>. This repo mirrors the latest installable
+        package payloads and signs metadata for package-manager installs.
+        Historical release assets are available on
+        <a href="https://github.com/squigit-org/squigit/releases">GitHub Releases</a>.
+      </p>
+
+      <div class="card">
+        <h2>APT (Debian/Ubuntu)</h2>
+        <pre>sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://squigit-org.github.io/squigit-packages/keys/squigit-packages.asc | \
+  gpg --dearmor | sudo tee /etc/apt/keyrings/squigit-packages.gpg >/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/squigit-packages.gpg] https://squigit-org.github.io/squigit-packages/apt stable ocr stt" | \
+  sudo tee /etc/apt/sources.list.d/squigit-packages.list >/dev/null
+sudo apt update
+sudo apt install squigit-ocr squigit-stt</pre>
+      </div>
+
+      <div class="card">
+        <h2>DNF (Fedora/RHEL)</h2>
+        <pre>sudo curl -fsSL https://squigit-org.github.io/squigit-packages/rpm/squigit.repo \
+  -o /etc/yum.repos.d/squigit.repo
+sudo dnf makecache
+sudo dnf install squigit-ocr squigit-stt</pre>
+      </div>
+
+      <p>
+        Public key files:
+        <a href="keys/squigit-packages.asc">ASCII</a> /
+        <a href="keys/squigit-packages.gpg">Binary</a>
+      </p>
+    </main>
+  </body>
+</html>

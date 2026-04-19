@@ -1,0 +1,11 @@
+# Private signing key exports
+linux-packages-private.asc
+*private*.asc
+*secret*.asc
+
+# Private passphrase files
+squigit-packages.pph
+
+# Common local/system noise
+.DS_Store
+*.swp
