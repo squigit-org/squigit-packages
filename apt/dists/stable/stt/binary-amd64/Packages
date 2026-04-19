@@ -2,7 +2,7 @@ Package: squigit-stt
 Version: 0.1.0
 Architecture: amd64
 Maintainer: a7mddra <a7mddra@github.com>
-Filename: /squigit-org/squigit/releases/download/stt-v0.1.0/squigit-stt_0.1.0_amd64.deb
+Filename: ../../../../squigit-org/squigit/releases/download/stt-v0.1.0/squigit-stt_0.1.0_amd64.deb
 Size: 202738274
 MD5sum: 30fa7e1651638743a9696fa7bcce03f9
 SHA1: 28cb0862e6bfda119a4011ccde06a4809a81dc0e
