@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: stable
+Components: ocr stt
+Date: Sun, 19 Apr 2026 16:42:25 +0000
+Label: Squigit Packages
+Origin: Squigit Org
+Suite: stable
+MD5Sum:
+ 675887f53e1c91a58588368ad6da12b7              154 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 ocr/binary-amd64/Packages
+ 6ca6ad49e0e69cf6881d6a078ca55c07               29 ocr/binary-amd64/Packages.gz
+ 9f13c182726a9572da031561abc17bd2              610 stt/binary-amd64/Packages
+ a8ace1055fc1d3bbb8ae9d115ab8e8e4              448 stt/binary-amd64/Packages.gz
+SHA1:
+ 053f207b6a50b4ecd38229e5d4141b57f5310890              154 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 ocr/binary-amd64/Packages
+ e7680c04b836ac041d28f5c23f5b63c09bd49c60               29 ocr/binary-amd64/Packages.gz
+ f0dd419b9bfb87b88ee14bca4d8e5e65a8168232              610 stt/binary-amd64/Packages
+ becef04ef99e2ec4aa41da414a1b972ad5aba345              448 stt/binary-amd64/Packages.gz
+SHA256:
+ 893b39b8e878e1daab928822b33dae65e8f8cfee2ba698152c82fd2d36c9e4d8              154 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 ocr/binary-amd64/Packages
+ f28b7def2cc50ed9869340fa4a95c09eeb2af011d31ed9228ff3b5ba779678e0               29 ocr/binary-amd64/Packages.gz
+ 0d2c92bb3a60499f39738232aac8df9c51b0176f9283b4298756414e67baa3e9              610 stt/binary-amd64/Packages
+ de5d291a32b9ccf8f8fbaa17fc889363eb30a44c5678f50f8b25bb1cd1f4bf27              448 stt/binary-amd64/Packages.gz
+SHA512:
+ 17c4fadf9c7dc809d137d59c2eeb248c53c0c6d179a8973fba1fafb34b8444a7fcfb71f238442488ab8679a67883f00016f7709e83b63bbef4bb292afc9a9021              154 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 ocr/binary-amd64/Packages
+ 197902153dc8d92f4fc8ef8df51290c34324c5144d05c5e1b3f770bce7330692779afb67be79cd380ebc2118c30e5c54053dc40e166494c8dfdf234497dc41d0               29 ocr/binary-amd64/Packages.gz
+ 171819c40d5be48e5792f4c3cd8515837a38103071c88dfa4eb893ce96165f4dca96fab6357a8bc749287a948dc287f07692dbbd770f0da5ae1ba2ec779ac2bd              610 stt/binary-amd64/Packages
+ c4342ec6bb853e0fc8349c33fb22e374d7bd3c3ea5a2ce667400d3cbb71f8eed5ba8ad834aa94af79bf0eaf6e4a3b100615775a54faa845799ae1eb53d748a12              448 stt/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEBsnTLsaZF/6rcWz9SP24qxzaGdgFAmnlBfEACgkQSP24qxza
+Gdj6mA/+OgLxsHdBbhWNrz1FkNG1vhmP8NzmHE+xSBRZbsBHBXjv5ivSknbQRtoc
+aNDo1dga73eUutEfQPhSfcW2dyHWuBSyrusTjcCJT+XefqnLuXr8PO27orupauLp
+xNnllB2xK0pSJKeQE55ZLXXH0zerEAA4ajKBFtBiifWQ7QIQLtBH98oPQZ+QH+11
+d1Hwjvz3VVl1nO69ncYmo5vOdTqxeWwC6fI7xhLhnOXF1uF98uxajfcPY2/YNSHs
+9TVm6WUnIKiOLqVna8T2nhUtLaBHM9vOArz8SyNqPxw7NmA3IKuB8E1RIV0XD9r1
+wnpCn985d6yBkjnzurWWQPnLzojmWQyPY7GnqZ+pqBakSRL1aETIGBWyjL/A363J
+2Ri3hHcIZIN4bBMHrnVFURp+AKCnhViLoiT82T51Fa/nTLT5Ai6/qmqCun180416
+3Dajoqa8W524Rvo9rwSomsvsStoiO6TKBb6AiVwvvrmzYsU84sHJ58j3JKnTWN9h
+KHs28auVPRIFhOOm4e8q+cX5EIAESMvtOPCtU89B6NLzoc8PfjTIKSECeqABtSgk
+vqZ1zv3ul8uGkiGbQXo5pgfYst+uWcN4MyuI1ZYGKPl6akgwxuxWQyno2CFUX99o
+FvuevFG7UO78WiicTXv2Y0FlqxtJRmIX1krB6d1PabAZt7R2NVk=
+=Ai9U
+-----END PGP SIGNATURE-----
