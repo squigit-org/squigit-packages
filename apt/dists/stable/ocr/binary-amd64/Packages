@@ -2,7 +2,7 @@ Package: squigit-ocr
 Version: 0.1.0
 Architecture: amd64
 Maintainer: a7mddra <a7mddra@github.com>
-Filename: ../../../../squigit-org/squigit/releases/download/ocr-v0.1.0/squigit-ocr_0.1.0_amd64.deb
+Filename: ../../../../../squigit-org/squigit/releases/download/ocr-v0.1.0/squigit-ocr_0.1.0_amd64.deb
 Size: 250416752
 MD5sum: dda11ca6e0e8db61922c1bd6f4e6ed58
 SHA1: 275b39abd320272b48970b7fbf95faea5569a42c
