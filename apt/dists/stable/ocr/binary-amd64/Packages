@@ -3,10 +3,10 @@ Version: 0.1.0
 Architecture: amd64
 Maintainer: a7mddra <a7mddra@github.com>
 Filename: ../../../../../squigit-org/squigit/releases/download/ocr-v0.1.0/squigit-ocr_0.1.0_amd64.deb
-Size: 250469310
-MD5sum: 6aa904b6bea5aa675b34cef4a4e0963b
-SHA1: f420c0bb6577ad5ac41cfe9f18d1bb5969f17b14
-SHA256: bcd2a5eeff299d22e6cf9af0d4a850ad67e3fd27ad7800eedaf03a063ab457bd
+Size: 250470910
+MD5sum: eec0ebf7343c5cbf0c073bafdc079055
+SHA1: d24fa66ee2e3324782e6c1482d1b2a1b07b81355
+SHA256: 356c7a647ddcd07e9fb6838662d80b24e8ae696ff56be6f289a40696faffe7d2
 Section: utils
 Priority: optional
 Description: Standalone CLI OCR engine for Squigit
