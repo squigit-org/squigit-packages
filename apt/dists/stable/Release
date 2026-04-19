@@ -1,31 +1,31 @@
 Architectures: amd64
 Codename: stable
 Components: ocr stt
-Date: Sun, 19 Apr 2026 22:01:29 +0000
+Date: Sun, 19 Apr 2026 22:32:16 +0000
 Label: Squigit Packages
 Origin: Squigit Org
 Suite: stable
 MD5Sum:
- fc673ddf485f2e566ec243125e9da4cc              154 Release
+ 458cfb327e136c193aeffe132955667d              154 Release
  345e5e3fc478a5b98e4a92c56f54412d              619 ocr/binary-amd64/Packages
- 214ded2a1aeb0efc9c6f5b9df2da120e              445 ocr/binary-amd64/Packages.gz
- 1fea3f8e12c2da5a400edf8cb05fec50              624 stt/binary-amd64/Packages
- 4a3883684ef0a38d37a32e562cf6c01e              451 stt/binary-amd64/Packages.gz
+ a4fd4ad45e1f04df0a8cd2c6a65ff464              445 ocr/binary-amd64/Packages.gz
+ 1a5dc53099e2ad671904acd775f44de7              624 stt/binary-amd64/Packages
+ f41376a3ea51a4c18f0f1af4be2738d8              449 stt/binary-amd64/Packages.gz
 SHA1:
- 077e00c93ae01a52007a8da30548c4ae14af8c11              154 Release
+ f0b69761f21b8e6fb38c76046abb04c0f2df584d              154 Release
  34b4ad97834b653d281e9ed36be2f1d622c8dd43              619 ocr/binary-amd64/Packages
- 5536503a3a2184d6c02fe205cfe9ee4d2b6e0b1e              445 ocr/binary-amd64/Packages.gz
- f7a391ae265b21a4053b6cd109c63fc1ec080ead              624 stt/binary-amd64/Packages
- 70e0f62922000bb7daa3d4a68bff86dc8b4d30b3              451 stt/binary-amd64/Packages.gz
+ 88cfc653719a0af0465a3ffc1051611303b2a469              445 ocr/binary-amd64/Packages.gz
+ 83da9d04fb3c95835192007b5258c47fd880ce17              624 stt/binary-amd64/Packages
+ 47ac0a21974a235aba6b89cb90a247475e6a6768              449 stt/binary-amd64/Packages.gz
 SHA256:
- 515b520fed3e1bd8daf7df47e02967117a4a97c32162f9f06cfe8d74c089d627              154 Release
+ 686f9a25561ba6b7f44fb08b0f06435efca3acfab8fd6a4c7f2b596901a46cc3              154 Release
  189ebc91464d63a785aea04d002ee9d7788496681d40dfc432abc8ec64b62be1              619 ocr/binary-amd64/Packages
- 668fe915cd093818d5169229f46cb2b74a402458ee288a46e8b253632b0b8d05              445 ocr/binary-amd64/Packages.gz
- 4b20ea56e27dc81110b9cf2f4dfed2221fbd26deef6606300efee866508f0cde              624 stt/binary-amd64/Packages
- f657821511bbb3c6518f9cb5b16715c0ea2afd0528d277c9d1ee45807732b907              451 stt/binary-amd64/Packages.gz
+ b009d4012d09e021fd9f9331c60a0b498cd6675c552887a05cabfce2d91eeac1              445 ocr/binary-amd64/Packages.gz
+ d565ab92e8ab8e172926360c82fef3f94de9a7cb93f16e37de8a1e2ec6b9f6d5              624 stt/binary-amd64/Packages
+ e939427e8491601dabe83d113dee6aa5579765a550e4a6f0ff3b4e279e53d1a4              449 stt/binary-amd64/Packages.gz
 SHA512:
- 2933976dc24e1a11d6dae7d7696a9f42ec0492e72fc0451ce8b141f7643dd3aa294c18747ad2e4db37a18b873075d24795c9a6d9683529c2a584530699f9c365              154 Release
+ 9ec29d4b3b316add05bfdbd7aed5ef962e35fcb63acd1b414420c5e3bbd52a567b0c37d16bc4a0a83cab917c4a7dee57b2dd68c5335b189f7b421bac91e85ccf              154 Release
  dcc3c2b7feacd4c114504efd81cf346e32a7d14fff38ef37c98dcd65e9ca63938623e314c1709345126aa14f8d4fcc240843ac0d6633855492e2f57bef1e8f95              619 ocr/binary-amd64/Packages
- bc40f66e258f7513c8ce858ae7b8e442b9396b39fabf11ed8995c5c6129da58a3df6048b29a0024ee8951a8936a8a17553505602a700e84dbe7cb3b4b0703fe2              445 ocr/binary-amd64/Packages.gz
- 3432126f2004e4783eeb31de4e6b3507dcd672f00f5384f17349ed66c2fb01c619de093deb06d0d50213b99827b04692f168c412ae398e029ac2cf8fc1caae5c              624 stt/binary-amd64/Packages
- 3d88d8041ccbbf591a8788556f610b2c77aebc0e1ac78b011b9060250c08cec32b553f79145ebcbbae2dae0e19a4ac542a307d658186b356ba8358c8d4e4a832              451 stt/binary-amd64/Packages.gz
+ 501d725fa62a09489e44da6be30b94baef2a9088cad9c897d64f3a30f6d0c78f8e8b5872d5aaa3203fd5660146c32bf9a0a95b7d79c8d40eabedfc9a84e14c27              445 ocr/binary-amd64/Packages.gz
+ f7fd6f8f60f7b015d53039470e1ba87200cf15d6169cd5cab32c9da4aed14d4acdd5b0aa8c603ea4966de877f6e5b3f8211fd9573d4e7aea9ab73e05a67c5c52              624 stt/binary-amd64/Packages
+ 8c8e79261d50a9c6f87f137d7e0320919c3cca3f4ae9c6dd8e04369962860f44d9593d2bd6596d387562d7ae4303fda4de73c115530f8228c6fa80f4b67cc068              449 stt/binary-amd64/Packages.gz

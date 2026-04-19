@@ -3,10 +3,10 @@ Version: 0.1.0
 Architecture: amd64
 Maintainer: a7mddra <a7mddra@github.com>
 Filename: ../../../../../squigit-org/squigit/releases/download/stt-v0.1.0/squigit-stt_0.1.0_amd64.deb
-Size: 202738274
-MD5sum: 30fa7e1651638743a9696fa7bcce03f9
-SHA1: 28cb0862e6bfda119a4011ccde06a4809a81dc0e
-SHA256: 2b1e29f583599f10e7f732090d7367925353d6c321d944dc9b9de8b01a7580f1
+Size: 202745784
+MD5sum: ba99e3d4b08aab9864cacc55e2f2e1ce
+SHA1: 25244b09676e5a0e677bc13df78c695a1e0b4b0a
+SHA256: c2daff36f90c64be86ca47d36022e8962e9cfbadde1c69e03bffae6fc1a4af73
 Section: utils
 Priority: optional
 Description: Standalone CLI STT engine for Squigit
