@@ -4,7 +4,7 @@ linux-packages-private.asc
 *secret*.asc
 
 # Private passphrase files
-squigit-packages.pph
+squigit-distribution.pph
 
 # Common local/system noise
 .DS_Store

@@ -1,0 +1,84 @@
+name: "Publish Linux OCR Repositories"
+description: "Updates signed APT and DNF metadata for Squigit OCR"
+inputs:
+  ocr-repository-token:
+    description: "GitHub token with write access to the OCR repository"
+    required: true
+  ocr-repository:
+    description: "OCR repository slug"
+    required: false
+    default: "squigit-org/squigit-ocr"
+  ocr-repository-branch:
+    description: "OCR repository branch to update"
+    required: false
+    default: "main"
+  ocr-version:
+    description: "OCR semantic version"
+    required: true
+  source-release-repo:
+    description: "Source repository hosting OCR release artifacts"
+    required: false
+    default: "squigit-org/squigit"
+  source-release-tag:
+    description: "Release tag hosting OCR artifacts"
+    required: true
+  deb-path:
+    description: "Absolute path to the .deb artifact"
+    required: true
+  rpm-path:
+    description: "Absolute path to the .rpm artifact"
+    required: true
+  gpg-private-key:
+    description: "Armored GPG private key"
+    required: true
+  gpg-passphrase:
+    description: "Passphrase for the GPG private key"
+    required: true
+  publish-dnf-repo:
+    description: "Whether to regenerate DNF metadata"
+    required: false
+    default: "true"
+  pages-base-url:
+    description: "Public GitHub Pages base URL for OCR distribution"
+    required: false
+    default: "https://squigit-org.github.io/squigit-ocr"
+  apt-suite:
+    description: "APT suite name"
+    required: false
+    default: "stable"
+outputs:
+  ocr-repository-url:
+    description: "OCR repository URL"
+    value: ${{ steps.publish.outputs.ocr_repository_url }}
+  apt-source:
+    description: "APT source line"
+    value: ${{ steps.publish.outputs.apt_source }}
+  dnf-repo-url:
+    description: "DNF repository file URL"
+    value: ${{ steps.publish.outputs.dnf_repo_url }}
+  ocr-repository-sha:
+    description: "Commit SHA of the updated OCR repository"
+    value: ${{ steps.publish.outputs.ocr_repository_sha }}
+runs:
+  using: "composite"
+  steps:
+    - name: Publish Linux OCR metadata
+      id: publish
+      shell: bash
+      env:
+        OCR_REPOSITORY_TOKEN: ${{ inputs.ocr-repository-token }}
+        OCR_REPOSITORY: ${{ inputs.ocr-repository }}
+        OCR_REPOSITORY_BRANCH: ${{ inputs.ocr-repository-branch }}
+        OCR_VERSION: ${{ inputs.ocr-version }}
+        SOURCE_RELEASE_REPO: ${{ inputs.source-release-repo }}
+        SOURCE_RELEASE_TAG: ${{ inputs.source-release-tag }}
+        DEB_PATH: ${{ inputs.deb-path }}
+        RPM_PATH: ${{ inputs.rpm-path }}
+        GPG_PRIVATE_KEY: ${{ inputs.gpg-private-key }}
+        GPG_PASSPHRASE: ${{ inputs.gpg-passphrase }}
+        PUBLISH_DNF_REPO: ${{ inputs.publish-dnf-repo }}
+        PAGES_BASE_URL: ${{ inputs.pages-base-url }}
+        APT_SUITE: ${{ inputs.apt-suite }}
+      run: |
+        set -euo pipefail
+        "${{ github.action_path }}/publish.sh"

@@ -51,30 +51,30 @@
       <h1>Squigit Linux Packages</h1>
       <p>
         Signed APT and DNF metadata for <code>squigit-ocr</code> and
-        <code>squigit-stt</code>. Install these sidecars using the standard
+        <code>squigit-cli</code>. Install these sidecars using the standard
         package-manager flow.
       </p>
 
       <div class="card">
         <h2>Debian/Ubuntu (APT repo)</h2>
         <pre>sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://squigit-org.github.io/squigit-packages/keys/squigit-packages.asc |   gpg --dearmor | sudo tee /etc/apt/keyrings/squigit-packages.gpg >/dev/null
-echo "deb [signed-by=/etc/apt/keyrings/squigit-packages.gpg] https://github.com/squigit-org/squigit-packages/raw/main/apt stable ocr stt" |   sudo tee /etc/apt/sources.list.d/squigit-packages.list >/dev/null
+curl -fsSL https://squigit-org.github.io/squigit-distribution/keys/squigit-distribution.asc |   gpg --dearmor | sudo tee /etc/apt/keyrings/squigit-distribution.gpg >/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/squigit-distribution.gpg] https://github.com/squigit-org/squigit-distribution/raw/main/apt stable ocr cli" |   sudo tee /etc/apt/sources.list.d/squigit-distribution.list >/dev/null
 sudo apt update
-sudo apt install squigit-ocr squigit-stt</pre>
+sudo apt install squigit-ocr squigit-cli</pre>
       </div>
 
       <div class="card">
         <h2>Fedora/RHEL (DNF repo)</h2>
-        <pre>sudo curl -fsSL https://squigit-org.github.io/squigit-packages/rpm/squigit.repo -o /etc/yum.repos.d/squigit.repo
+        <pre>sudo curl -fsSL https://squigit-org.github.io/squigit-distribution/rpm/squigit.repo -o /etc/yum.repos.d/squigit.repo
 sudo dnf makecache
-sudo dnf install squigit-ocr squigit-stt</pre>
+sudo dnf install squigit-ocr squigit-cli</pre>
       </div>
 
       <p>
         Public key files:
-        <a href="keys/squigit-packages.asc">ASCII</a> /
-        <a href="keys/squigit-packages.gpg">Binary</a>
+        <a href="keys/squigit-distribution.asc">ASCII</a> /
+        <a href="keys/squigit-distribution.gpg">Binary</a>
       </p>
       <p><a href="metadata/package-assets.env">Latest package asset manifest</a></p>
     </main>
