@@ -57,26 +57,32 @@
 
       <div class="card">
         <h2>Debian/Ubuntu (APT repo)</h2>
-        <pre>sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://squigit-org.github.io/squigit-distribution/keys/squigit-distribution.asc |   gpg --dearmor | sudo tee /etc/apt/keyrings/squigit-distribution.gpg >/dev/null
-echo "deb [signed-by=/etc/apt/keyrings/squigit-distribution.gpg] https://github.com/squigit-org/squigit-distribution/raw/main/apt stable ocr cli" |   sudo tee /etc/apt/sources.list.d/squigit-distribution.list >/dev/null
+        <pre>
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://squigit-org.github.io/distribution/keys/distribution.asc |   gpg --dearmor | sudo tee /etc/apt/keyrings/distribution.gpg >/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/distribution.gpg] https://github.com/squigit-org/distribution/raw/main/apt stable ocr cli" |   sudo tee /etc/apt/sources.list.d/distribution.list >/dev/null
 sudo apt update
-sudo apt install squigit-ocr squigit-cli</pre>
+sudo apt install squigit-ocr squigit-cli</pre
+        >
       </div>
 
       <div class="card">
         <h2>Fedora/RHEL (DNF repo)</h2>
-        <pre>sudo curl -fsSL https://squigit-org.github.io/squigit-distribution/rpm/squigit.repo -o /etc/yum.repos.d/squigit.repo
+        <pre>
+sudo curl -fsSL https://squigit-org.github.io/distribution/rpm/squigit.repo -o /etc/yum.repos.d/squigit.repo
 sudo dnf makecache
-sudo dnf install squigit-ocr squigit-cli</pre>
+sudo dnf install squigit-ocr squigit-cli</pre
+        >
       </div>
 
       <p>
         Public key files:
-        <a href="keys/squigit-distribution.asc">ASCII</a> /
-        <a href="keys/squigit-distribution.gpg">Binary</a>
+        <a href="keys/distribution.asc">ASCII</a> /
+        <a href="keys/distribution.gpg">Binary</a>
       </p>
-      <p><a href="metadata/package-assets.env">Latest package asset manifest</a></p>
+      <p>
+        <a href="metadata/package-assets.env">Latest package asset manifest</a>
+      </p>
     </main>
   </body>
 </html>

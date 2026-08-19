@@ -1,15 +1,15 @@
 [squigit-ocr]
 name=Squigit OCR Packages
-baseurl=https://squigit-org.github.io/squigit-distribution/rpm/ocr
+baseurl=https://squigit-org.github.io/distribution/rpm/ocr
 enabled=1
 gpgcheck=1
 repo_gpgcheck=1
-gpgkey=https://squigit-org.github.io/squigit-distribution/keys/squigit-distribution.asc
+gpgkey=https://squigit-org.github.io/distribution/keys/distribution.asc
 
 [squigit-cli]
 name=Squigit CLI Packages
-baseurl=https://squigit-org.github.io/squigit-distribution/rpm/cli
+baseurl=https://squigit-org.github.io/distribution/rpm/cli
 enabled=1
 gpgcheck=1
 repo_gpgcheck=1
-gpgkey=https://squigit-org.github.io/squigit-distribution/keys/squigit-distribution.asc
+gpgkey=https://squigit-org.github.io/distribution/keys/distribution.asc
