@@ -1,10 +1,10 @@
 {
   "app": {
     "current_version": null,
-    "latest_version": "26.08.18",
+    "latest_version": "26.08.23",
     "version_type": "calver",
     "released_at": "2026-08-19",
-    "content": "# Squigit 26.08.18\n"
+    "content": "# Squigit 26.08.23\n"
   },
   "cli": {
     "current_version": null,
